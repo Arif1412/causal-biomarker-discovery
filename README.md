@@ -5,7 +5,7 @@ A 3-stage hybrid causal feature selection framework combining mutual-information
 ## Pipeline Architecture
 1. **Stage 1 (mRMR Filtering):** Maximize gene-target relevance while minimizing inter-feature mutual redundancy.
 2. **Stage 2 (Skeleton Superset Extraction):** Apply a modified PC algorithm using conditional-independence (CI) testing to locate target neighborhood supersets.
-3. **Stage 3 (Continuous Graph Optimization):** Map candidates into continuous space using a DAG-GNN autoencoder constrained by the local graph skeleton to isolate the true Markov Blanket.
+3. **Stage 3 (Continuous Graph Optimization):** Map candidates into continuous space using a DAG-GNN autoencoder constrained by the local graph skeleton to isolate the true Markov Blanket (MV).
 
 ## Repository Structure
 - `cancerbiomarkeridentification.ipynb`: Main end-to-end execution notebook.
